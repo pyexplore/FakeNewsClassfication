@@ -12,7 +12,7 @@ This project aims to classify news articles as real or fake using various machin
 
 3. `FakeNewsClassificationRNN.ipynb`: This notebook covers the creation, execution, and evaluation of an Recurrent Neural Long Short Term Memory Network model. It runs on Google Colab with GPU support. The notebook reads the preprocessed data from a dataframe, tokenizes the news articles using NLTK tokenizer, applies padding on the encoding of the news article, creates and fits the model on the train set, predicts the validation and test set, and generates accuracy score for validation and test predictions. The model is saved for future use in the model evaluation notebook. Note: The input file (`processed_train.csv`) path needs to be updated for running this notebook in a new environment.
 
-4. `FakeNewsClassificationModelEvaluation.ipynb`: This notebook focuses on the evaluation of Logreg, Naïve Bayes, Random Forest and Recurrent Neural Networks classification models. Performance metrics like Accuracy, Precision, Recall, F1 score and Area Under the Receiver Operating Characteristic (AUROC) are considered. The performance metrics of all models are consolidated in a Pandas DataFrame for easy comparison.
+4. `FakeNewsClassificationModelEvaluation.ipynb`: This notebook focuses on the evaluation of Logreg, Naïve Bayes, Random Forest and Recurrent Neural Networks classification models. It runs on Google Colab with GPU support. Performance metrics like Accuracy, Precision, Recall, F1 score and Area Under the Receiver Operating Characteristic (AUROC) are considered. The performance metrics of all models are consolidated in a Pandas DataFrame for easy comparison.
 
 ## Datasets
 
